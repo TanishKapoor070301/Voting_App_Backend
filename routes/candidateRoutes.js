@@ -68,7 +68,7 @@ router.post('/addCandidate',jwtMiddleware,async (req,res)=>{
 
 
 
-// http://localhost:3000/candidate/66648c115ff3118229733f44
+// http://localhost:3000/candidate/id
 
 router.put('/:candidateID',jwtMiddleware,async(req,res)=>{
     console.log("hi")
